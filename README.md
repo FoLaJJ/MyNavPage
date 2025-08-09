@@ -12,6 +12,9 @@
 
 所以打算自己做一个简陋的，凑合用。
 
+## 在线展示
+
+https://folajj.github.io/MyNavPage/index.html
 
 ## 项目结构
 
