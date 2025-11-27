@@ -56,13 +56,190 @@ const siteDataConfig = {
       "name": "论文",
       "icon": "fa-solid fa-book"
     },
+    {
+      "id": "gowork",
+      "name": "笔面试找工作",
+      "icon": "fa-solid fa-person-praying"
+    },
 
   ],
   "sites": [
     /*
     ===================================================================================
+    ================================gowork=============================================
+    */
+    {
+      "id": "learngitbranching",
+      "name": "LearnGitBranching",
+      "url": "https://learngitbranching.js.org/?locale=zh_CN",
+      "description": "一个在线练习git操作的网站",
+      "category": "gowork",
+      "icon": "icon/learngitbranching.ico"
+    },
+    {
+      "id": "nowcoder",
+      "name": "牛客",
+      "url": "https://www.nowcoder.com/",
+      "description": "一款挺杂的面经分享网站，杂了招聘、做题、做项目、背八股",
+      "category": "gowork",
+      "icon": "icon/nowcoder.ico"
+    },
+    {
+      "id": "programmercarl",
+      "name": "代码随想录",
+      "url": "https://programmercarl.com/",
+      "description": "代码随想录",
+      "category": "gowork",
+      "icon": "icon/programmercarl.png"
+    },
+    {
+      "id": "mianshiya",
+      "name": "面试鸭",
+      "url": "https://www.mianshiya.com/",
+      "description": "一款AI生成资料的八股背诵工具",
+      "category": "gowork",
+      "icon": "icon/mianshiya.ico"
+    },
+    {
+      "id": "xiaolincoding",
+      "name": "小林Coding",
+      "url": "https://www.xiaolincoding.com/",
+      "description": "系统和网络部分很经典",
+      "category": "gowork",
+      "icon": "icon/xiaolincoding.webp"
+    },
+    {
+      "id": "csguidecn",
+      "name": "编程指北",
+      "url": "https://csguide.cn/",
+      "description": "cpp挺全的",
+      "category": "gowork",
+      "icon": "icon/csguidecn.ico"
+    },
+    {
+      "id": "csview",
+      "name": "csview",
+      "url": "https://www.csview.cn/",
+      "description": "CSView一个面试和八股文的网站",
+      "category": "gowork",
+      "icon": "icon/csview.png"
+    },
+    {
+      "id": "leetcode",
+      "name": "LeetCode",
+      "url": "https://leetcode.cn/",
+      "description": "你们什么时候周赛才能打败AI",
+      "category": "gowork",
+      "icon": "icon/leetcode.webp"
+    },
+    {
+      "id": "wondercv",
+      "name": "超级简历",
+      "url": "https://www.wondercv.com/",
+      "description": "比较好用的一个简历制作网站",
+      "category": "gowork",
+      "icon": "icon/wondercv.ico"
+    },
+    {
+      "id": "bosszhipin",
+      "name": "Boss直聘",
+      "url": "https://www.zhipin.com/",
+      "description": "什么都有",
+      "category": "gowork",
+      "icon": "icon/bosszhipin.ico"
+    },
+    {
+      "id": "lintcode",
+      "name": "Lintcode炼码",
+      "url": "https://www.lintcode.com/",
+      "description": "体验不如leetcode",
+      "category": "gowork",
+      "icon": "icon/lintcode.ico"
+    },
+    {
+      "id": "acmcoder",
+      "name": "acmcoder赛码",
+      "url": "https://www.acmcoder.com/",
+      "description": "有些公司会使用这个平台进行笔试",
+      "category": "gowork",
+      "icon": "icon/acmcoder.ico"
+    },
+    {
+      "id": "shixiseng",
+      "name": "实习僧",
+      "url": "https://www.shixiseng.com/",
+      "description": "一般",
+      "category": "gowork",
+      "icon": "icon/shixiseng.ico"
+    },
+    {
+      "id": "zhilianzhaopin",
+      "name": "智联招聘",
+      "url": "https://www.zhaopin.com/",
+      "description": "智联招聘",
+      "category": "gowork",
+      "icon": "icon/zhilianzhaopin.png"
+    },
+    {
+      "id": "ciweishixi",
+      "name": "刺猬实习",
+      "url": "https://www.ciwei.net/",
+      "description": "刺猬实习",
+      "category": "gowork",
+      "icon": "icon/ciweishixi.ico"
+    },
+    {
+      "id": "haitouzhaopin",
+      "name": "鱼泡直聘校招",
+      "url": "https://www.haitou.cc/",
+      "description": "原网站是海投网",
+      "category": "gowork",
+      "icon": "icon/haitouzhaopin.ico"
+    },
+    {
+      "id": "yingjiesheng",
+      "name": "应届生求职网",
+      "url": "https://www.yingjiesheng.com/",
+      "description": "应届生求职网",
+      "category": "gowork",
+      "icon": "icon/yingjiesheng.png"
+    },
+    {
+      "id": "maimai",
+      "name": "脉脉",
+      "url": "https://maimai.cn/",
+      "description": "momo",
+      "category": "gowork",
+      "icon": "icon/maimai.ico"
+    },
+    {
+      "id": "offershow",
+      "name": "offershow",
+      "url": "https://www.offershow.cn/",
+      "description": "马内马内",
+      "category": "gowork",
+      "icon": "icon/offershow.ico"
+    },
+    /*
+    ===================================================================================
     ================================papers=============================================
     */
+    {
+      "id": "mycolorSpace",
+      "name": "mycolor-space",
+      "url": "https://mycolor.space/",
+      "description": "科研绘图配色推荐！",
+      "category": "papers",
+      "icon": "icon/MycolorSpace.png"
+    },
+    {
+      "id": "zlib",
+      "name": "Z-Library",
+      "url": "https://z-lib.id/",
+      "description": "Z-Library",
+      "category": "papers",
+      "icon": "icon/zlib.ico"
+    },
     {
       "id": "arxiv",
       "name": "arXiv",
@@ -172,6 +349,23 @@ const siteDataConfig = {
       "category": "CampusWelfare",
       "icon": "icon/aminer.jpg"
     },
+    {
+      "id": "szunas",
+      "name": "网安Alist网盘",
+      "url": "http://nas.szu.moe/",
+      "description": "仅限校内网络访问，里面很多东西思密达，经常性崩",
+      "category": "CampusWelfare",
+      "icon": "icon/szunas.svg"
+    },
+    {
+      "id": "szums",
+      "name": "校内正版软件下载",
+      "url": "http://ms.szu.edu.cn/",
+      "description": "仅限校内网络访问，matlab、wps",
+      "category": "CampusWelfare",
+      "icon": "icon/szums.ico"
+    },
+
     
     /*
     ===================================================================================
@@ -181,7 +375,7 @@ const siteDataConfig = {
       "id": "autodl",
       "name": "AutoDL",
       "url": "https://www.autodl.com/console/homepage/personal",
-      "description": "经典",
+      "description": "经典GPU算力，主要是可以走报销，有账单说明啥的",
       "category": "Server",
       "icon": "icon/autodl.png"
     },
@@ -192,6 +386,30 @@ const siteDataConfig = {
       "description": "有保证",
       "category": "Server",
       "icon": "icon/tencentCloud.ico"
+    },
+    {
+      "id": "huaweiCloud",
+      "name": "华为云",
+      "url": "https://www.huaweicloud.com/",
+      "description": "华为云",
+      "category": "Server",
+      "icon": "icon/huaweiCloud.ico"
+    },
+    {
+      "id": "tianyiCloud",
+      "name": "天翼云",
+      "url": "https://www.ctyun.cn/",
+      "description": "呃呃呃",
+      "category": "Server",
+      "icon": "icon/tianyiCloud.ico"
+    },
+    {
+      "id": "jdCloud",
+      "name": "京东云",
+      "url": "https://www.jdcloud.com/",
+      "description": "嗯嗯嗯",
+      "category": "Server",
+      "icon": "icon/jdCloud.ico"
     },
     {
       "id": "volcengine",
@@ -214,6 +432,14 @@ const siteDataConfig = {
     ===================================================================================
     ========================================AI=========================================
     */
+    {
+      "id": "kaggle",
+      "name": "kaggle",
+      "url": "https://www.kaggle.com/",
+      "description": "kaggle",
+      "category": "AI",
+      "icon": "icon/kaggle.ico"
+    },
     {
       "id": "HappyLLM",
       "name": "HappyLLM",
@@ -285,6 +511,14 @@ const siteDataConfig = {
       "description": "不要念成DickSeek了",
       "category": "AI",
       "icon": "icon/deepseek.svg"
+    },
+    {
+      "id": "qwenai",
+      "name": "Qwen",
+      "url": "https://chat.qwen.ai/",
+      "description": "从学术界迈向ToC",
+      "category": "AI",
+      "icon": "icon/qwenai.png"
     },
     {
       "id": "chatgpt",
@@ -383,6 +617,14 @@ const siteDataConfig = {
       "icon": "icon/trae.png"
     },
     {
+      "id": "cursor",
+      "name": "Cursor",
+      "url": "https://cursor.com/cn",
+      "description": "双汇火腿肠，王中王",
+      "category": "AI",
+      "icon": "icon/cursor.ico"
+    },
+    {
       "id": "d2lai",
       "name": "深度学习",
       "url": "https://zh.d2l.ai/index.html",
@@ -394,6 +636,14 @@ const siteDataConfig = {
     ===================================================================================
     =====================================meme==========================================
     */
+    {
+      "id": "nof1ai",
+      "name": "LLM-solo炒股战",
+      "url": "https://nof1.ai/",
+      "description": "LLM塞博斗蛐蛐",
+      "category": "meme",
+      "icon": "icon/nof1ai.png"
+    },
     {
       "id": "icebergcharts",
       "name": "中文互联网迷因",
@@ -471,6 +721,22 @@ const siteDataConfig = {
     ================================VulnerabilityDatabase==============================
     */
     {
+      "id": "huntrCom",
+      "name": "Huntr",
+      "url": "https://huntr.com/",
+      "description": "全球首个针对人工智能的漏洞赏金平台",
+      "category": "VulnerabilityDatabase",
+      "icon": "icon/huntrCom.ico"
+    },
+    {
+      "id": "Vulnerability-lookup",
+      "name": "Vulnerability-lookup",
+      "url": "https://cve.circl.lu/",
+      "description": "Vulnerability-lookup漏洞查找",
+      "category": "VulnerabilityDatabase",
+      "icon": "icon/Vulnerability-lookup.ico"
+    },
+    {
       "id": "cnnvd",
       "name": "国家信息安全漏洞库",
       "url": "https://www.cnnvd.org.cn/home/childHome",
@@ -531,10 +797,122 @@ const siteDataConfig = {
     ======================================ToolChain====================================
     */
     {
+      "id": "qianduangebilidanmu",
+      "name": "bili_danmu",
+      "url": "https://tool.qianduange.cn/bili_danmu",
+      "description": "一个查B站弹幕发送者的网站",
+      "category": "ToolChain",
+      "icon": "icon/qianduangebilidanmu.png"
+    },
+    {
+      "id": "ctftoolsio",
+      "name": "ctftools-io",
+      "url": "https://ctftools.github.io/",
+      "description": "一个在线的CTFtools收集网站",
+      "category": "ToolChain",
+      "icon": "icon/ctftoolsio.ico"
+    },
+    {
+      "id": "InternxtCom",
+      "name": "InternxtCom",
+      "url": "https://internxt.com/zh/temporary-email",
+      "description": "一个在线的免费临时邮箱",
+      "category": "ToolChain",
+      "icon": "icon/InternxtCom.png"
+    },
+    {
+      "id": "viewdnsinfo",
+      "name": "viewdnsinfo",
+      "url": "https://viewdns.info/",
+      "description": "viewdns.info一个有较多关于dns查询、ip查询的在线网站",
+      "category": "ToolChain",
+      "icon": "icon/viewdnsinfo.ico"
+    },
+    {
+      "id": "de4js",
+      "name": "de4js",
+      "url": "https://lelinhtinh.github.io/de4js/",
+      "description": "de4js，一款js反混淆工具",
+      "category": "ToolChain",
+      "icon": "icon/de4js.ico"
+    },
+    {
+      "id": "linuxmirrorscn",
+      "name": "Linuxmirrors",
+      "url": "https://linuxmirrors.cn/",
+      "description": "一键脚本换源，巨好用！适配多种系统，别再自己配啦！",
+      "category": "ToolChain",
+      "icon": "icon/linuxmirrorscn.svg"
+    },
+    {
+      "id": "shodan",
+      "name": "shodan",
+      "url": "https://www.shodan.io/",
+      "description": "shodan信息搜集",
+      "category": "ToolChain",
+      "icon": "icon/shodan.png"
+    },
+    {
+      "id": "lingfengyun",
+      "name": "lingfengyun",
+      "url": "https://www.lingfengyun.com/",
+      "description": "凌风云，一个可以搜索很多网盘关键字的平台，信息搜集",
+      "category": "ToolChain",
+      "icon": "icon/lingfengyun.ico"
+    },
+    {
+      "id": "SerpApi",
+      "name": "SerpApi",
+      "url": "https://serpapi.com/",
+      "description": "SerpApi综合的搜索引擎平台，有免费额度",
+      "category": "ToolChain",
+      "icon": "icon/SerpApi.png"
+    },
+    {
+      "id": "busuanzi",
+      "name": "busuanzi",
+      "url": "https://busuanzi.ibruce.info/",
+      "description": "永久免费使用，好人站长。你的站点要在公网，它才会去记录",
+      "category": "ToolChain",
+      "icon": "icon/busuanzi.png"
+    },
+    {
+      "id": "googleanalytics",
+      "name": "GoogleAnalytics",
+      "url": "https://analytics.google.com/analytics/web/provision/#/provision",
+      "description": "GoogleAnalytics",
+      "category": "ToolChain",
+      "icon": "icon/GoogleAnalytics.png"
+    },
+    {
+      "id": "cloudflareanalytics",
+      "name": "CloudflareAnalytics",
+      "url": "https://www.cloudflare.com/zh-tw/application-services/products/analytics/",
+      "description": "cloudflare网站访问量统计平台",
+      "category": "ToolChain",
+      "icon": "icon/CloudflareAnalytics.png"
+    },
+    {
+      "id": "counterapi",
+      "name": "CounterAPI",
+      "url": "https://app.counterapi.dev/",
+      "description": "一款免费限量的网站访问量统计平台",
+      "category": "ToolChain",
+      "icon": "icon/counterapi.png"
+    },
+    {
+      "id": "cowtransfer",
+      "name": "奶牛快传",
+      "url": "https://cowtransfer.com/",
+      "description": "一个非常简洁好用的文件分享工具，时代的眼泪，25年12月寄了",
+      "category": "ToolChain",
+      "icon": "icon/cowtransfer.png"
+    },
+    {
       "id": "dnslog",
       "name": "DNSLog",
       "url": "https://dnslog.uk/template",
-      "description": "dnslog反代检查之类的必备",
+      "description": "dnslog反代检查之类的必备，已经寄了",
       "category": "ToolChain",
       "icon": "icon/dnslog.png"
     },
@@ -738,10 +1116,34 @@ const siteDataConfig = {
       "category": "ToolChain",
       "icon": "icon/ddosiscg.png"
     },
+    {
+      "id": "drawnix",
+      "name": "Drawnix",
+      "url": "https://drawnix.com/",
+      "description": "一款开源的白板工具，https://github.com/plait-board/drawnix",
+      "category": "ToolChain",
+      "icon": "icon/drawnix.ico"
+    },
     /*
     ===================================================================================
     ======================================SlackOff=====================================
     */
+    {
+      "id": "youtube",
+      "name": "youtube",
+      "url": "https://www.youtube.com/",
+      "description": "油管！",
+      "category": "SlackOff",
+      "icon": "icon/youtube.png"
+    },
+    {
+      "id": "netflix",
+      "name": "netflix",
+      "url": "https://www.netflix.com/",
+      "description": "网飞！",
+      "category": "SlackOff",
+      "icon": "icon/netflix.ico"
+    },
     {
       "id": "acfun",
       "name": "A站",
@@ -759,10 +1161,26 @@ const siteDataConfig = {
       "icon": "icon/bilibili.ico"
     },
     {
+      "id": "cctv",
+      "name": "CCTV",
+      "url": "https://tv.cctv.com/",
+      "description": "这是C站，谁赞成，谁反对",
+      "category": "SlackOff",
+      "icon": "icon/cctv.ico"
+    },
+    {
+      "id": "missevan",
+      "name": "M站",
+      "url": "https://www.missevan.com/",
+      "description": "missevan，猫耳FM弹幕音图站",
+      "category": "SlackOff",
+      "icon": "icon/missevan.ico"
+    },
+    {
       "id": "ddys",
       "name": "低端影视",
       "url": "https://ddys.pro//",
-      "description": "挺高清的",
+      "description": "时代的眼泪，不可抗力停站了！",
       "category": "SlackOff",
       "icon": "icon/ddys.webp"
     },
@@ -969,12 +1387,28 @@ const siteDataConfig = {
     ====================================Forum==========================================
     */
     {
+      "id": "DailyDarkWeb",
+      "name": "DailyDarkWeb",
+      "url": "https://dailydarkweb.net/",
+      "description": "DailyDarkWeb每日暗网，可能不全",
+      "category": "Forum",
+      "icon": "icon/DailyDarkWeb.png"
+    },
+    {
       "id": "linuxdo",
       "name": "Linuxdo社区",
       "url": "https://linux.do/",
-      "description": "Linuxdo社区",
+      "description": "L站",
       "category": "Forum",
       "icon": "icon/linuxdo.png"
+    },
+    {
+      "id": "v2ex",
+      "name": "V2EX社区",
+      "url": "https://www.v2ex.com/",
+      "description": "V2EX社区",
+      "category": "Forum",
+      "icon": "icon/v2ex.ico"
     },
     {
       "id": "kanxue",
@@ -983,14 +1417,6 @@ const siteDataConfig = {
       "description": "看雪",
       "category": "Forum",
       "icon": "icon/kanxue.ico"
-    },
-    {
-      "id": "nowcoder",
-      "name": "牛客",
-      "url": "https://www.nowcoder.com/",
-      "description": "一款挺杂的面经分享网站，杂了招聘、做题、做项目、背八股",
-      "category": "Forum",
-      "icon": "icon/nowcoder.ico"
     },
     {
       "id": "ichunqiu",
@@ -1009,14 +1435,6 @@ const siteDataConfig = {
       "icon": "icon/52pojie.svg"
     },
     {
-      "id": "mianshiya",
-      "name": "面试鸭",
-      "url": "https://www.mianshiya.com/",
-      "description": "一款AI生成资料的八股背诵工具",
-      "category": "Forum",
-      "icon": "icon/mianshiya.ico"
-    },
-    {
       "id": "anquanke",
       "name": "安全客",
       "url": "https://www.anquanke.com/",
@@ -1031,14 +1449,6 @@ const siteDataConfig = {
       "description": "不做评价",
       "category": "Forum",
       "icon": "icon/aqniukt.png"
-    },
-    {
-      "id": "leetcode",
-      "name": "LeetCode",
-      "url": "https://leetcode.cn/",
-      "description": "你们什么时候周赛才能打败AI",
-      "category": "Forum",
-      "icon": "icon/leetcode.webp"
     },
     {
       "id": "freebuf",
@@ -1094,7 +1504,7 @@ const siteDataConfig = {
       "url": "http://www.anquan419.com/",
       "description": "网安信息汇总，主要是比赛",
       "category": "Forum",
-      "icon": "icon/behance.png"
+      "icon": "icon/anquan419.ico"
     },
     {
       "id": "yijinglab",
