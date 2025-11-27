@@ -1,6 +1,8 @@
-# 简单的导航页
+# MyNavPage
 
 一个完全静态的导航页，使用纯净的 HTML + CSS + JavaScript 开发，可直接部署到 GitHub Pages。
+
+
 
 ## 事件起因
 
@@ -12,36 +14,56 @@
 
 所以打算自己做一个简陋的，凑合用。
 
+添加数据在data.js里面添加即可，静态网站是这样的。
+
+
+
 ## 在线展示
 
+```
 https://folajj.github.io/MyNavPage/index.html
+```
 
-## 项目结构
+
+
+
+
+## 版本
+
+### v0.2 
+
+懒得写了，就改了下样式加了搜索框
+
+实际根据名称和描述进行搜索
 
 ```
-MyNavPage/
-├── index.html          # 主页面
-├── favicon             # 站点icon
-	└── favicon.ico      
-├── css/
-│   └── style.css      # 样式文件
-├── js/
-│   ├── data.js        # 网站数据配置
-│   └── app.js         # JavaScript逻辑
-├── icon/              # 图标文件夹
-└── README.md          # 项目说明
+{
+  "name": "xxxxxxxxxxx",
+  "description": "xxxxxxxxxx",
+},
 ```
+
+![image-20251127174659281](./assets/image-20251127174659281.png)
+
+
+
+
+
+
+
+### v0.1
+
+原来的样式：
+
+![image-20251127174609701](./assets/image-20251127174609701.png)
+
+
 
 ## 快速开始
 
 ### 本地使用
-由于是静态页面，所以直接下载修改即可。
 
-直接在浏览器中打开 `index.html` 文件即可使用。
-
-简单展示如下：
-![](assert/allshow.png)
-
+由于是静态页面，所以直接下载修改即可。直接在浏览器中打开 `index.html` 文件即可使用。
 
 ### 修改个性化
 
@@ -56,22 +78,17 @@ const siteDataConfig = {
 };
 ```
 
-#### 侧边栏修改
+### 侧边栏修改
 
-`categories`里面的内容是你要安排的大类个数及其属性，实际表现为侧边栏的内容。
-
-![](assert/navbar.png)
-
-新增或者删除需要填写id，name及其icon，其中第一个all建议不更改，然后icon可以到下面的网址去选择符合分类的icon
-
+`categories`里面的内容是你要安排的大类个数及其属性，实际表现为侧边栏的内容。新增或者删除需要填写id，name及其icon，其中第一个all建议不更改，然后icon可以到下面的网址去选择符合分类的icon。
 
 https://fontawesome.com/v6/icons#packs
 
-将如下图所示的东西替换过去即可
-![](assert/fontaa.png)
+将如下图所示的东西替换过去即可 
 
 
-#### 实际网址修改
+
+### 实际网址修改
 
 ```js
     {
@@ -95,15 +112,9 @@ https://fontawesome.com/v6/icons#packs
 
 
 
-虽然我的一千多行很离谱，但是实际上正常人不会有这么多的，所以可以直接删掉data.js的大部分内容，更为简洁。
-
-
-
 ### 跳转链接更改
 
 如下图所示的跳转链接也是可以修改的，直接在index.html更改即可
-
-![](assert/bloggithub.png)
 
 将href的相关内容更换为你的链接。
 
@@ -117,4 +128,3 @@ https://fontawesome.com/v6/icons#packs
     GitHub
 </a>
 ```
-
